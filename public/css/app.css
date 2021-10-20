@@ -31881,14 +31881,14 @@ video {
 }
 
 .line {
-  font-size: 2.5rem;
-  text-align: center;
+  position: relative;
   border-right: solid 2px rgba(255,255,255,0.7);
   white-space: nowrap;
   overflow: hidden;
   width: 40ch;
-  -webkit-animation: typewriter 3s steps(40) 1s , cursor 500ms steps(22);
-          animation: typewriter 3s steps(40) 1s , cursor 500ms steps(22);
+  -webkit-animation: typewriter 3s steps(40) 1s , cursor 500ms steps(40);
+          animation: typewriter 3s steps(40) 1s , cursor 500ms steps(40);
+  word-wrap:break-word;
 }
 
 /* typewriter animation */
@@ -188074,3 +188074,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+

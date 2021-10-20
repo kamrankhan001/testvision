@@ -6,7 +6,7 @@
     <header class="my-1">
         <div style="background-image:url('{{asset('images/hero/hero.jpg')}}')" class="bg-cover h-screen">
             <div class="absolute right-0 left-0 my-40">
-                <h1 class="text-5xl text-yellow-500 font-bold my-5 line mx-auto">Welcome to Vision Marketing & Productions</h1>
+                <h1 class="text-5xl text-yellow-500 font-bold my-5 mx-auto line">Welcome to Vision Marketing & Productions</h1>
                 <p class="text-4xl text-white w-96 mx-auto">We have more than 17 years of experience</p>
                 <form action="" method="get" class="my-9 w-96 mx-auto">
                     <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" class="block w-full p-2 h-10 rounded outline-none">
