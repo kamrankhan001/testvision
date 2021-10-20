@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .line {
+    font-size: 2.5rem;
+    /* text-align: center; */
+    border-right: solid 2px rgba(255,255,255,0.7);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 40ch;
+    animation: typewriter 3s steps(40) 1s , cursor 500ms steps(40);
+  }
+  /* typewriter animation */
+  @keyframes typewriter {
+      0%{width: 0;}
+      100%{width: 40ch;}
+  }
+  /* cursor animation */
+  @keyframes cursor {
+      0%{border-right-color: rgba(255,255,255,0.7);}
+      100%{border-right-color: transparent;}
+  }
+
+  }
