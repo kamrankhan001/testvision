@@ -8,3 +8,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::view('about', 'navlinks.about')->name('about');
+
+Route::view('whyus', 'navlinks.whyus')->name('whyus');
+
+Route::view('/bookacall', 'navlinks.contect')->name('contect');

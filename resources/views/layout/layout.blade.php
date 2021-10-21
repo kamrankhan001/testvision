@@ -74,8 +74,8 @@
               </div>
 
             </div> 
-            <a class="px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Why Us</a>
-            <a class="px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Book a Call</a>
+            <a class="px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{route('whyus')}}">Why Us</a>
+            <a class="px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{route('contect')}}">Book a Call</a>
 
              
 
@@ -88,6 +88,10 @@
     @yield('home')
 
     @yield('about')
+    
+    @yield('whyus')
+
+    @yield('contect')
 
     <footer class="text-gray-800 bg-gray-200">
       <div class="container px-5 py-24 mx-auto">
