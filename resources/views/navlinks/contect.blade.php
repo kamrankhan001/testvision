@@ -6,12 +6,12 @@
     <div style="background-image:url('{{asset('images/parallex/parallex.jpg')}}')" class="bg-cover h-screen ">
         <div class="absolute right-0 left-0 my-10">
            
-            <div class="flex flex-col md:flex-row md:space-x-7 space-y-3 justify-center container md:mx-auto text-white items-start">
+            <div class="flex flex-col md:flex-row md:space-x-7 space-y-3 justify-center container md:mx-auto text-white">
                 
-                <div>
-                    <h1>Frictionless, delightful work starts here</h1>
-                    <p>Book a consultation and discovery call to get a look at:</p>
-                    <ul>
+                <div class="md:w-1/2 md:p-0 p-2">
+                    <h1 class="text-5xl my-2 text-center">Frictionless, delightful work starts here</h1>
+                    <p class="text-xl my-2">Book a consultation and discovery call to get a look at:</p>
+                    <ul class="list-disc text-xl px-10">
                         <li>How Creative Solutions & Co. works</li>
                         <li>How Creative Solutions & Co. works</li>
                         <li>How Creative Solutions & Co. works</li>
